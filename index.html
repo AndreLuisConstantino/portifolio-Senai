@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +14,13 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/section-title.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="stylesheet" href="./css/back.css">
     <title>Portifólio - André Luiz</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -38,6 +44,9 @@
         </nav>
     </header>
     <main>
+        <a href="#home" class="back" title="Voltar">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
         <section class="home" id="home">
             <img src="./img/Ellipse 1.png" alt="foto" class="home__photo">
             <div>
@@ -50,8 +59,10 @@
             <h2 class="section-title">Sobre Mim</h2>
             <div class="description">
                 <h3 class="description__title">Quem sou?</h3>
-                <p class="description__text">Sou iniciante na área de criação de sites e manutenção de sites, tenho conhecimento em prototipação e designer sempre pensando na experiência do usuário.
-                    Sou apaixonado pelo mundo do digital e desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.</p>
+                <p class="description__text">Sou iniciante na área de criação de sites e manutenção de sites, tenho
+                    conhecimento em prototipação e designer sempre pensando na experiência do usuário.
+                    Sou apaixonado pelo mundo do digital e desenvolvimento, sempre procurando inspiração nos meus
+                    colegas de trabalho e no mundo que me rodeia.</p>
             </div>
             <div class="skills">
                 <h3 class="skills__title">Skills</h3>
@@ -83,9 +94,97 @@
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://github.com/AndreLuisConstantino/Air-Zoom-Senai" target="_blank" class="card">
+                    <img src="./img/imagem-tenis.png" alt="Tenis">
+                </a>
+                <a href="https://github.com/AndreLuisConstantino/landing-page-pikachu" target="_blank" class="card">
+                    <img src="./img/pikachu.png" alt="Pikachu">
+                </a>
+                <a href="https://github.com/AndreLuisConstantino/Air-Zoom-Senai" target="_blank" class="card">
+                    <img src="./img/imagem-tenis.png" alt="Tenis">
+                </a>
+                <a href="https://github.com/AndreLuisConstantino/landing-page-pikachu" target="_blank" class="card">
+                    <img src="./img/pikachu.png" alt="Pikachu">
+                </a>
+                <a href="https://github.com/AndreLuisConstantino/Air-Zoom-Senai" target="_blank" class="card">
+                    <img src="./img/imagem-tenis.png" alt="Tenis">
+                </a>
+                <a href="https://github.com/AndreLuisConstantino/landing-page-pikachu" target="_blank" class="card">
+                    <img src="./img/pikachu.png" alt="Pikachu">
+                </a>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(11) 94889-4512</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>andreluis081205@gmail.com</span>
+                    </div>
+                </li>
+                <div class="contato-item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>(11) 97049-3172</span>
+                </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li>
+                    <a href="#" class="social-item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-item">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#home">Projetos</a>
+                </li>
+                <li>
+                    <a href="#home">Contato</a>
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        Todos os direitos reservados a |© 2022| Desenvolvido por  André Luiz
+    </footer>
 </body>
+
 </html>

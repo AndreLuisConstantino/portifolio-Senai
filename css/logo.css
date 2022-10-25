@@ -14,3 +14,9 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+@media(max-width:960px){
+    .logo{
+        
+    }
+}
