@@ -8,3 +8,9 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+
+@media (max-width:960px){
+    .section-title{
+        font-size: 10.4rem;
+    }
+}

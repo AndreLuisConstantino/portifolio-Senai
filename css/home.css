@@ -23,6 +23,11 @@
     .home{
         display: flex;
         flex-direction: column;
+        text-align: center;
+    }
+
+    .home__name{
+        padding: 20px;
     }
 
 

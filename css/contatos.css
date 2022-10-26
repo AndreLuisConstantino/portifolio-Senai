@@ -6,7 +6,6 @@
     "title title title"
     "contato social link";  
     grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
 }
 .contato-container{
@@ -48,4 +47,29 @@
 }
 .link-title{
     font-size: 1.5rem;
+}
+
+@media(max-wiidth:960px) {
+
+    .contato{
+        display: grid;
+        grid-template-rows: 3;
+        grid-template-columns: 3;
+    }
+    .contato-container{
+        grid-column: 1;
+        grid-row: 2; 
+    }
+    .link-container{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .social-container{
+        grid-row: 3;
+        grid-column: 3/-4;
+    }
+
+
+
+
 }

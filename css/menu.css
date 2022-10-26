@@ -15,4 +15,9 @@
     .menu{
         display: none;
     }
+
+    .menubar-container{
+        font-size: 1.5rem;
+        
+    }
 }
