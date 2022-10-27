@@ -46,6 +46,14 @@
     .card-container img{
         width: 672px;
     }
-
+    .card{
+        display: none;
+    }
+    .card:hover::before{
+        display: none;
+    }
+    .card::before{
+        display: none;
+    }
 
 }
