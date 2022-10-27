@@ -49,27 +49,22 @@
     font-size: 1.5rem;
 }
 
-@media(max-wiidth:960px) {
+@media(max-width:960px) {
 
     .contato{
+        max-width: 800px;
+        width: 100%;
         display: grid;
-        grid-template-rows: 3;
-        grid-template-columns: 3;
-    }
-    .contato-container{
-        grid-column: 1;
-        grid-row: 2; 
-    }
-    .link-container{
-        grid-column: 3;
-        grid-row: 2;
+        grid-template-areas: 
+        "title title title"
+        "contato . link"
+        "social social social";
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .social-container{
-        grid-row: 3;
-        grid-column: 3/-4;
+        grid-area: social;
     }
-
-
 
 
 }
