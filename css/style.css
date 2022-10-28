@@ -27,6 +27,10 @@ header {
     align-items: center;
 }
 
+.menubar-container{
+    visibility: hidden;
+}
+
 main{
     grid-area: content;
     display: flex;
@@ -61,5 +65,12 @@ footer{
 
 /* MOBILE */
 @media (max-width:640px){
+    header{
+        max-width: 550px;
+    }
 
+    footer{
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
 }

@@ -16,7 +16,18 @@
 }
 
 @media(max-width:960px){
+
+}
+
+@media(max-width:640px){
+
     .logo{
-        
+        font-size: 3.5rem;
+    }
+    .logo::before{
+        font-size: 3.5rem;
+    }
+    .logo::after{
+        font-size: 3.5rem;
     }
 }

@@ -55,5 +55,19 @@
     .card::before{
         display: none;
     }
+}
 
+@media(max-width:640px){
+    .projetos{
+        height: 140rem;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        display: flex;
+        width: 520px;
+    }
 }

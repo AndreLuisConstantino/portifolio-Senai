@@ -17,7 +17,14 @@
     }
 
     .menubar-container{
+        visibility: visible;
         font-size: 1.5rem;
-        
+    }
+}
+
+@media(max-width: 640px){
+    .menubar-container{
+        visibility: visible;
+        font-size: 2.5rem;
     }
 }
