@@ -35,7 +35,7 @@
 
 @media (max-width:960px){
     .projetos{
-        height: 175rem;
+        height: 180rem;
     }
     .card-container{
         display: flex;
@@ -46,9 +46,7 @@
     .card-container img{
         width: 672px;
     }
-    .card{
-        display: none;
-    }
+
     .card:hover::before{
         display: none;
     }
@@ -59,7 +57,7 @@
 
 @media(max-width:640px){
     .projetos{
-        height: 140rem;
+        height: 165rem;
     }
     .card-container{
         display: flex;
@@ -68,6 +66,6 @@
     }
     .card{
         display: flex;
-        width: 520px;
+        width: 672px;
     }
 }
