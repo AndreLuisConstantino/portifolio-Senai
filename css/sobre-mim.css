@@ -95,3 +95,8 @@
         font-size: 1.25;
     }
 }
+@media(max-width:320px){
+    .sobre-mim{
+        height: 90rem;
+    }
+}

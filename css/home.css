@@ -44,3 +44,16 @@
         font-size: 4rem;
     }
 }
+
+@media(max-width:300px){
+    .home{
+        gap: 2rem;
+        height: 40rem;
+    }
+    .home__text{
+        font-size: 1.5rem;
+    }
+    .home__name{
+        font-size: 2rem;
+    }
+}
